@@ -1,3 +1,23 @@
+VinStock
+========
+
+Installation 
+------------
+Mettre à jour le projet local : 
+```
+# composer update
+```
+Faire une copie du fichier `.env.example` et le nommer `.env`. 
+Regénérer la clé d'application `APP_KEY` : 
+```
+# php artisan key:generate
+```
+Démarrer le projet : 
+```
+# php artisan serve
+```
+
+---
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
